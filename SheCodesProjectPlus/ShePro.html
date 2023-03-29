@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="wrapper">
+          <div class="textwrapper">
+            <h1 class="city">Dusseldorf</h1>
+            <h2 class="country"> Germany</small></h2>
+          </div>
+
+          <form action="/submit">
+            <input class="tex"
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter a City "
+            />
+            <input class="ser" type="submit" value="Search" />
+          </form>
+        </div>
+        <div class="wrapper">
+          <div class="weather_today">
+            <div class="today_info">
+              <img class="cloudd" src="img/cloud.png" alt="cloud" />
+              <h1 class="temp">11°C°F</h1>
+            </div>
+            <p class="info">Impact chance: 74% Humidity: 79% Speed: 37 km/h</p>
+          </div>
+          <div class="textwrapper">
+            <h2><small> Friday 17:47</small></h2>
+            <p>Partly cloudy</p>
+          </div>
+        </div>
+        <div class="row wrapper">
+          <div class="col">
+            Sat
+            <img class="cloud" src="img/cloud.png" alt="cloud" />
+            11°C°F
+          </div>
+          <div class="col">
+            Sun
+            <img class="cloud" src="img/cloud.png" alt="cloud" />
+            9°C°F
+          </div>
+          <div class="col">
+            Mon
+            <img class="sun" src="img/sun.png" alt="sun" />
+            13°C°F
+          </div>
+          <div class="col">
+            Tue
+            <img class="sun" src="img/sun.png" alt="sun" />
+            14°C°F
+          </div>
+          <div class="col">
+            Wen <img class="cloud" src="img/cloud.png" alt="cloud" />
+            9°C°F
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

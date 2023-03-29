@@ -1,0 +1,77 @@
+.cloud {
+  width: 100px;
+}
+
+.city {
+  font-weight: bold;
+  margin: 0;
+  color: #7c7c7c;
+}
+.sun {
+  width: 100px;
+}
+.info {
+  max-width: 150px;
+  color: #7c7c7c;
+}
+form {
+  padding: 20px;
+}
+.section {
+  border: 3px solid #999999;
+  border-radius: 8px;
+  background: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(201, 228, 255) 100.2%
+  );
+  margin: 50px 100px;
+  max-width: 60%;
+  margin: 20px auto;
+}
+
+div.col {
+  max-width: 200px;
+  padding: 20px 40px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+.textwrapper {
+  flex-direction: column;
+  margin-right: 30px;
+  color: #7c7c7c;
+}
+
+.today_info {
+  display: flex;
+}
+.col {
+  text-align: center;
+}
+.tex {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: #7c7c7c;
+}
+.ser {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: rgb(255, 231, 216);
+  border-color: #7c7c7c;
+}
+.country {
+  font-size: 20px;
+  color: #adadad;
+}
+.temp {
+ margin: 30px;
+ font-size: 60px;
+ margin-left: 40px;
+ color: #7c7c7c;
+}
+.cloudd{
+  width: 150px;
+}
